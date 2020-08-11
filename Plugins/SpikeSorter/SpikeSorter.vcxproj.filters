@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Plugins\SpikeSorter\OpenEphysLib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Plugins\SpikeSorter\SpikeSorter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Plugins\SpikeSorter\SpikeSortBoxes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Plugins\SpikeSorter\SpikeSorterEditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Plugins\SpikeSorter\SpikeSorterCanvas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Plugins\SpikeSorter\SpikeSorter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Plugins\SpikeSorter\SpikeSortBoxes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Plugins\SpikeSorter\SpikeSorterEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Plugins\SpikeSorter\SpikeSorterCanvas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\nkinsky\Documents\plugin-GUI2\Plugins\SpikeSorter\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{07221AE9-7408-3BD0-AD30-BDA4B9D2A3FF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{437C3F99-ED85-3527-819E-A440AFCACFBE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

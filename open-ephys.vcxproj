@@ -1,0 +1,674 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2877F3D4-EEC5-3DCE-B0D3-362D1850C24F}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>open-ephys</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\nkinsky\Documents\plugin-GUI2\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">open-ephys.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">open-ephys</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\nkinsky\Documents\plugin-GUI2\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">open-ephys.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">open-ephys</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\nkinsky\Documents\plugin-GUI2\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">open-ephys.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">open-ephys</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\nkinsky\Documents\plugin-GUI2\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">open-ephys.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">open-ephys</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode;C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode\modules;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SDLCheck>false</SDLCheck>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;JUCE_API=__declspec(dllexport);_CRT_SECURE_NO_WARNINGS;NOMINMAX;DEBUG=1;_DEBUG=1;JUCE_APP_VERSION=0.4.6;JUCE_APP_VERSION_HEX=0x0406;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;JUCE_API=__declspec(dllexport);_CRT_SECURE_NO_WARNINGS;NOMINMAX;DEBUG=1;_DEBUG=1;JUCE_APP_VERSION=0.4.6;JUCE_APP_VERSION_HEX=0x0406;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode;C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode\modules;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode;C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode\modules;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>		</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/nkinsky/Documents/plugin-GUI2/Debug/shared
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/nkinsky/Documents/plugin-GUI2/Debug/plugins
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/nkinsky/Documents/plugin-GUI2/Resources/Bitfiles/intan_rec_controller.bit C:/Users/nkinsky/Documents/plugin-GUI2/Resources/Bitfiles/rhd2000.bit C:/Users/nkinsky/Documents/plugin-GUI2/Resources/Bitfiles/rhd2000_usb3.bit C:/Users/nkinsky/Documents/plugin-GUI2/Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/nkinsky/Documents/plugin-GUI2/Resources/DLLs/Win64/hdf5.dll C:/Users/nkinsky/Documents/plugin-GUI2/Resources/DLLs/Win64/hdf5_cpp.dll C:/Users/nkinsky/Documents/plugin-GUI2/Resources/DLLs/Win64/libzmq-v120-mt-4_0_4.dll C:/Users/nkinsky/Documents/plugin-GUI2/Resources/DLLs/Win64/okFrontPanel.dll C:/Users/nkinsky/Documents/plugin-GUI2/Resources/DLLs/Win64/szip.dll C:/Users/nkinsky/Documents/plugin-GUI2/Resources/DLLs/Win64/zlib.dll C:/Users/nkinsky/Documents/plugin-GUI2/Debug/shared
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>setupapi.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>libcmt.lib;msvcrt.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/nkinsky/Documents/plugin-GUI2/Debug/open-ephys.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/nkinsky/Documents/plugin-GUI2/Debug/open-ephys.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode;C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode\modules;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SDLCheck>false</SDLCheck>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;JUCE_API=__declspec(dllexport);_CRT_SECURE_NO_WARNINGS;NOMINMAX;NDEBUG=1;JUCE_APP_VERSION=0.4.6;JUCE_APP_VERSION_HEX=0x0406;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;JUCE_API=__declspec(dllexport);_CRT_SECURE_NO_WARNINGS;NOMINMAX;NDEBUG=1;JUCE_APP_VERSION=0.4.6;JUCE_APP_VERSION_HEX=0x0406;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode;C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode\modules;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode;C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode\modules;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>		</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/nkinsky/Documents/plugin-GUI2/Release/shared
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/nkinsky/Documents/plugin-GUI2/Release/plugins
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/nkinsky/Documents/plugin-GUI2/Resources/Bitfiles/intan_rec_controller.bit C:/Users/nkinsky/Documents/plugin-GUI2/Resources/Bitfiles/rhd2000.bit C:/Users/nkinsky/Documents/plugin-GUI2/Resources/Bitfiles/rhd2000_usb3.bit C:/Users/nkinsky/Documents/plugin-GUI2/Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/nkinsky/Documents/plugin-GUI2/Resources/DLLs/Win64/hdf5.dll C:/Users/nkinsky/Documents/plugin-GUI2/Resources/DLLs/Win64/hdf5_cpp.dll C:/Users/nkinsky/Documents/plugin-GUI2/Resources/DLLs/Win64/libzmq-v120-mt-4_0_4.dll C:/Users/nkinsky/Documents/plugin-GUI2/Resources/DLLs/Win64/okFrontPanel.dll C:/Users/nkinsky/Documents/plugin-GUI2/Resources/DLLs/Win64/szip.dll C:/Users/nkinsky/Documents/plugin-GUI2/Resources/DLLs/Win64/zlib.dll C:/Users/nkinsky/Documents/plugin-GUI2/Release/shared
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>setupapi.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/nkinsky/Documents/plugin-GUI2/Release/open-ephys.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/nkinsky/Documents/plugin-GUI2/Release/open-ephys.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode;C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode\modules;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SDLCheck>false</SDLCheck>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;JUCE_API=__declspec(dllexport);_CRT_SECURE_NO_WARNINGS;NOMINMAX;JUCE_APP_VERSION=0.4.6;JUCE_APP_VERSION_HEX=0x0406;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;JUCE_API=__declspec(dllexport);_CRT_SECURE_NO_WARNINGS;NOMINMAX;JUCE_APP_VERSION=0.4.6;JUCE_APP_VERSION_HEX=0x0406;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode;C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode\modules;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode;C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode\modules;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>		</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/nkinsky/Documents/plugin-GUI2/MinSizeRel/shared
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/nkinsky/Documents/plugin-GUI2/MinSizeRel/plugins
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/nkinsky/Documents/plugin-GUI2/Resources/Bitfiles/intan_rec_controller.bit C:/Users/nkinsky/Documents/plugin-GUI2/Resources/Bitfiles/rhd2000.bit C:/Users/nkinsky/Documents/plugin-GUI2/Resources/Bitfiles/rhd2000_usb3.bit C:/Users/nkinsky/Documents/plugin-GUI2/MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/nkinsky/Documents/plugin-GUI2/Resources/DLLs/Win64/hdf5.dll C:/Users/nkinsky/Documents/plugin-GUI2/Resources/DLLs/Win64/hdf5_cpp.dll C:/Users/nkinsky/Documents/plugin-GUI2/Resources/DLLs/Win64/libzmq-v120-mt-4_0_4.dll C:/Users/nkinsky/Documents/plugin-GUI2/Resources/DLLs/Win64/okFrontPanel.dll C:/Users/nkinsky/Documents/plugin-GUI2/Resources/DLLs/Win64/szip.dll C:/Users/nkinsky/Documents/plugin-GUI2/Resources/DLLs/Win64/zlib.dll C:/Users/nkinsky/Documents/plugin-GUI2/MinSizeRel/shared
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>setupapi.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/nkinsky/Documents/plugin-GUI2/MinSizeRel/open-ephys.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/nkinsky/Documents/plugin-GUI2/MinSizeRel/open-ephys.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode;C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode\modules;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SDLCheck>false</SDLCheck>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;JUCE_API=__declspec(dllexport);_CRT_SECURE_NO_WARNINGS;NOMINMAX;JUCE_APP_VERSION=0.4.6;JUCE_APP_VERSION_HEX=0x0406;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;JUCE_API=__declspec(dllexport);_CRT_SECURE_NO_WARNINGS;NOMINMAX;JUCE_APP_VERSION=0.4.6;JUCE_APP_VERSION_HEX=0x0406;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode;C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode\modules;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode;C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode\modules;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>		</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/nkinsky/Documents/plugin-GUI2/RelWithDebInfo/shared
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/nkinsky/Documents/plugin-GUI2/RelWithDebInfo/plugins
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/nkinsky/Documents/plugin-GUI2/Resources/Bitfiles/intan_rec_controller.bit C:/Users/nkinsky/Documents/plugin-GUI2/Resources/Bitfiles/rhd2000.bit C:/Users/nkinsky/Documents/plugin-GUI2/Resources/Bitfiles/rhd2000_usb3.bit C:/Users/nkinsky/Documents/plugin-GUI2/RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/nkinsky/Documents/plugin-GUI2/Resources/DLLs/Win64/hdf5.dll C:/Users/nkinsky/Documents/plugin-GUI2/Resources/DLLs/Win64/hdf5_cpp.dll C:/Users/nkinsky/Documents/plugin-GUI2/Resources/DLLs/Win64/libzmq-v120-mt-4_0_4.dll C:/Users/nkinsky/Documents/plugin-GUI2/Resources/DLLs/Win64/okFrontPanel.dll C:/Users/nkinsky/Documents/plugin-GUI2/Resources/DLLs/Win64/szip.dll C:/Users/nkinsky/Documents/plugin-GUI2/Resources/DLLs/Win64/zlib.dll C:/Users/nkinsky/Documents/plugin-GUI2/RelWithDebInfo/shared
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>setupapi.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/nkinsky/Documents/plugin-GUI2/RelWithDebInfo/open-ephys.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/nkinsky/Documents/plugin-GUI2/RelWithDebInfo/open-ephys.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\nkinsky\Documents\plugin-GUI2\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/nkinsky/Documents/plugin-GUI2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/nkinsky/Documents/plugin-GUI2 -BC:/Users/nkinsky/Documents/plugin-GUI2 --check-stamp-file C:/Users/nkinsky/Documents/plugin-GUI2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;C:\Users\nkinsky\Documents\plugin-GUI2\CMakeFiles\3.18.1\CMakeCCompiler.cmake;C:\Users\nkinsky\Documents\plugin-GUI2\CMakeFiles\3.18.1\CMakeCXXCompiler.cmake;C:\Users\nkinsky\Documents\plugin-GUI2\CMakeFiles\3.18.1\CMakeRCCompiler.cmake;C:\Users\nkinsky\Documents\plugin-GUI2\CMakeFiles\3.18.1\CMakeSystem.cmake;C:\Users\nkinsky\Documents\plugin-GUI2\HelperFunctions.cmake;C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode\JuceHeader.h.in;C:\Users\nkinsky\Documents\plugin-GUI2\Resources\Build-files\resources.rc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\nkinsky\Documents\plugin-GUI2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/nkinsky/Documents/plugin-GUI2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/nkinsky/Documents/plugin-GUI2 -BC:/Users/nkinsky/Documents/plugin-GUI2 --check-stamp-file C:/Users/nkinsky/Documents/plugin-GUI2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;C:\Users\nkinsky\Documents\plugin-GUI2\CMakeFiles\3.18.1\CMakeCCompiler.cmake;C:\Users\nkinsky\Documents\plugin-GUI2\CMakeFiles\3.18.1\CMakeCXXCompiler.cmake;C:\Users\nkinsky\Documents\plugin-GUI2\CMakeFiles\3.18.1\CMakeRCCompiler.cmake;C:\Users\nkinsky\Documents\plugin-GUI2\CMakeFiles\3.18.1\CMakeSystem.cmake;C:\Users\nkinsky\Documents\plugin-GUI2\HelperFunctions.cmake;C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode\JuceHeader.h.in;C:\Users\nkinsky\Documents\plugin-GUI2\Resources\Build-files\resources.rc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\nkinsky\Documents\plugin-GUI2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/nkinsky/Documents/plugin-GUI2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/nkinsky/Documents/plugin-GUI2 -BC:/Users/nkinsky/Documents/plugin-GUI2 --check-stamp-file C:/Users/nkinsky/Documents/plugin-GUI2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;C:\Users\nkinsky\Documents\plugin-GUI2\CMakeFiles\3.18.1\CMakeCCompiler.cmake;C:\Users\nkinsky\Documents\plugin-GUI2\CMakeFiles\3.18.1\CMakeCXXCompiler.cmake;C:\Users\nkinsky\Documents\plugin-GUI2\CMakeFiles\3.18.1\CMakeRCCompiler.cmake;C:\Users\nkinsky\Documents\plugin-GUI2\CMakeFiles\3.18.1\CMakeSystem.cmake;C:\Users\nkinsky\Documents\plugin-GUI2\HelperFunctions.cmake;C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode\JuceHeader.h.in;C:\Users\nkinsky\Documents\plugin-GUI2\Resources\Build-files\resources.rc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\nkinsky\Documents\plugin-GUI2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/nkinsky/Documents/plugin-GUI2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/nkinsky/Documents/plugin-GUI2 -BC:/Users/nkinsky/Documents/plugin-GUI2 --check-stamp-file C:/Users/nkinsky/Documents/plugin-GUI2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;C:\Users\nkinsky\Documents\plugin-GUI2\CMakeFiles\3.18.1\CMakeCCompiler.cmake;C:\Users\nkinsky\Documents\plugin-GUI2\CMakeFiles\3.18.1\CMakeCXXCompiler.cmake;C:\Users\nkinsky\Documents\plugin-GUI2\CMakeFiles\3.18.1\CMakeRCCompiler.cmake;C:\Users\nkinsky\Documents\plugin-GUI2\CMakeFiles\3.18.1\CMakeSystem.cmake;C:\Users\nkinsky\Documents\plugin-GUI2\HelperFunctions.cmake;C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode\JuceHeader.h.in;C:\Users\nkinsky\Documents\plugin-GUI2\Resources\Build-files\resources.rc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\nkinsky\Documents\plugin-GUI2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode\AppConfig.h" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode\JuceHeader.h" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode\BinaryData.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode\BinaryData.cpp" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode\juce_audio_basics.cpp" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode\juce_audio_devices.cpp" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode\juce_audio_formats.cpp" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode\juce_audio_processors.cpp" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode\juce_audio_utils.cpp" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode\juce_core.cpp" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode\juce_cryptography.cpp" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode\juce_data_structures.cpp" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode\juce_events.cpp" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode\juce_graphics.cpp" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode\juce_gui_basics.cpp" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode\juce_gui_extra.cpp" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode\juce_opengl.cpp" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode\juce_video.cpp" />
+    <ResourceCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Resources\Build-files\resources.rc" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\AccessClass.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\AccessClass.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\CoreServices.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\CoreServices.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\MainWindow.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\MainWindow.cpp" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Main.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Audio\AudioComponent.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Audio\AudioComponent.cpp" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\AudioNode\AudioEditor.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\AudioNode\AudioEditor.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\AudioNode\AudioNode.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\AudioNode\AudioNode.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\AudioResamplingNode\AudioResamplingNode.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\AudioResamplingNode\AudioResamplingNode.h" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Channel\InfoObjects.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Channel\InfoObjects.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Channel\MetaData.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Channel\MetaData.cpp" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\DataThreads\DataBuffer.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\DataThreads\DataBuffer.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\DataThreads\DataThread.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\DataThreads\DataThread.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\Bessel.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\Bessel.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\Biquad.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\Biquad.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\Butterworth.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\Butterworth.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\Cascade.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\Cascade.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\ChebyshevI.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\ChebyshevI.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\ChebyshevII.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\ChebyshevII.h" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\Common.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\Custom.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\Custom.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\Design.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\Design.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\Documentation.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\Dsp.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\Elliptic.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\Elliptic.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\Filter.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\Filter.h" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\Layout.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\Legendre.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\Legendre.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\LinearSmoothedValueAtomic.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\LinearSmoothedValueAtomic.h" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\MathSupplement.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\Param.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\Params.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\PoleFilter.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\PoleFilter.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\RBJ.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\RBJ.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\RootFinder.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\RootFinder.h" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\SmoothedFilter.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\State.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\State.h" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\Types.h" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\Utilities.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Editors\ChannelSelector.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Editors\ChannelSelector.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Editors\ElectrodeButtons.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Editors\ElectrodeButtons.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Editors\GenericEditor.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Editors\GenericEditor.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Editors\ImageIcon.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Editors\ImageIcon.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Editors\VisualizerEditor.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Editors\VisualizerEditor.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Events\Events.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Events\Events.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\FileReader\FileReader.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\FileReader\FileReader.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\FileReader\FileReaderEditor.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\FileReader\FileReaderEditor.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\FileReader\FileSource.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\FileReader\FileSource.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\FileReader\BinaryFileSource\BinaryFileSource.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\FileReader\BinaryFileSource\BinaryFileSource.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\GenericProcessor\GenericProcessor.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\GenericProcessor\GenericProcessor.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Merger\Merger.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Merger\Merger.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Merger\MergerEditor.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Merger\MergerEditor.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\MessageCenter\MessageCenter.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\MessageCenter\MessageCenter.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\MessageCenter\MessageCenterEditor.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\MessageCenter\MessageCenterEditor.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Parameter\Parameter.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Parameter\Parameter.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Parameter\ParameterEditor.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Parameter\ParameterEditor.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\PlaceholderProcessor\PlaceholderProcessor.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\PlaceholderProcessor\PlaceholderProcessor.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\PlaceholderProcessor\PlaceholderProcessorEditor.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\PlaceholderProcessor\PlaceholderProcessorEditor.h" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\PluginManager\OpenEphysPlugin.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\PluginManager\PluginClass.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\PluginManager\PluginClass.h" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\PluginManager\PluginIDs.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\PluginManager\PluginManager.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\PluginManager\PluginManager.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\ProcessorGraph\ProcessorGraph.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\ProcessorGraph\ProcessorGraph.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\ProcessorManager\ProcessorManager.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\ProcessorManager\ProcessorManager.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\RecordNode\DataQueue.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\RecordNode\DataQueue.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\RecordNode\EngineConfigWindow.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\RecordNode\EngineConfigWindow.h" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\RecordNode\EventQueue.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\RecordNode\RecordEngine.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\RecordNode\RecordEngine.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\RecordNode\RecordNode.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\RecordNode\RecordNode.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\RecordNode\RecordThread.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\RecordNode\RecordThread.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\RecordNode\BinaryFormat\BinaryRecording.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\RecordNode\BinaryFormat\BinaryRecording.h" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\RecordNode\BinaryFormat\FileMemoryBlock.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\RecordNode\BinaryFormat\NpyFile.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\RecordNode\BinaryFormat\NpyFile.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\RecordNode\BinaryFormat\SequentialBlockFile.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\RecordNode\BinaryFormat\SequentialBlockFile.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\RecordNode\OpenEphysFormat\OriginalRecording.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\RecordNode\OpenEphysFormat\OriginalRecording.h" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Serial\ofConstants.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Serial\ofSerial.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Serial\ofSerial.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\SourceNode\SourceNode.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\SourceNode\SourceNode.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\SourceNode\SourceNodeEditor.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\SourceNode\SourceNodeEditor.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Splitter\Splitter.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Splitter\Splitter.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Splitter\SplitterEditor.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Splitter\SplitterEditor.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Visualization\DataWindow.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Visualization\DataWindow.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Visualization\MatlabLikePlot.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Visualization\MatlabLikePlot.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Visualization\Visualizer.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Visualization\Visualizer.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\ControlPanel.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\ControlPanel.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\CustomArrowButton.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\CustomArrowButton.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\DataViewport.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\DataViewport.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\EditorViewport.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\EditorViewport.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\EditorViewportButtons.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\EditorViewportButtons.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\GraphViewer.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\GraphViewer.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\InfoLabel.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\InfoLabel.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\ProcessorList.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\ProcessorList.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\SignalChainManager.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\SignalChainManager.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\TimestampSourceSelection.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\TimestampSourceSelection.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\UIComponent.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\UIComponent.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\LookAndFeel\CustomLookAndFeel.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\LookAndFeel\CustomLookAndFeel.h" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\LookAndFeel\FlatRoundLookAndFeel.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\LookAndFeel\MaterialButtonLookAndFeel.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\LookAndFeel\MaterialButtonLookAndFeel.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\LookAndFeel\MaterialSliderLookAndFeel.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\LookAndFeel\MaterialSliderLookAndFeel.h" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\LookAndFeel\SquareLookAndFeel.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\Utils\ButtonGroupManager.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\Utils\ButtonGroupManager.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\Utils\LinearButtonGroupManager.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\Utils\LinearButtonGroupManager.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\Utils\TiledButtonGroupManager.cpp" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\Utils\TiledButtonGroupManager.h" />
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Utils\ListSliceParser.h" />
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Utils\ListSliceParser.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\nkinsky\Documents\plugin-GUI2\ZERO_CHECK.vcxproj">
+      <Project>{34382E66-4E6F-3675-815E-930235F1BFD6}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

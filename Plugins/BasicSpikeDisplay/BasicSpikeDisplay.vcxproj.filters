@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Plugins\BasicSpikeDisplay\OpenEphysLib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Plugins\BasicSpikeDisplay\SpikeDetector\SpikeDetector.cpp">
+      <Filter>SpikeDetector</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Plugins\BasicSpikeDisplay\SpikeDetector\SpikeDetectorEditor.cpp">
+      <Filter>SpikeDetector</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Plugins\BasicSpikeDisplay\SpikeDisplayNode\SpikeDisplayCanvas.cpp">
+      <Filter>SpikeDisplayNode</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Plugins\BasicSpikeDisplay\SpikeDisplayNode\SpikeDisplayEditor.cpp">
+      <Filter>SpikeDisplayNode</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Plugins\BasicSpikeDisplay\SpikeDisplayNode\SpikeDisplayNode.cpp">
+      <Filter>SpikeDisplayNode</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Plugins\BasicSpikeDisplay\SpikeDetector\SpikeDetector.h">
+      <Filter>SpikeDetector</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Plugins\BasicSpikeDisplay\SpikeDetector\SpikeDetectorEditor.h">
+      <Filter>SpikeDetector</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Plugins\BasicSpikeDisplay\SpikeDisplayNode\SpikeDisplayCanvas.h">
+      <Filter>SpikeDisplayNode</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Plugins\BasicSpikeDisplay\SpikeDisplayNode\SpikeDisplayEditor.h">
+      <Filter>SpikeDisplayNode</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Plugins\BasicSpikeDisplay\SpikeDisplayNode\SpikeDisplayNode.h">
+      <Filter>SpikeDisplayNode</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\nkinsky\Documents\plugin-GUI2\Plugins\BasicSpikeDisplay\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{437C3F99-ED85-3527-819E-A440AFCACFBE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SpikeDetector">
+      <UniqueIdentifier>{41B036A2-EBCA-3551-9BDA-5ED6C15F8532}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SpikeDisplayNode">
+      <UniqueIdentifier>{083A74D7-C53E-30C8-9465-D4A3252F583F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

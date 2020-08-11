@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D998366F-7AF8-3DE8-ABA3-D0172AE94928}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\nkinsky\Documents\plugin-GUI2\Plugins\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/nkinsky/Documents/plugin-GUI2/Plugins/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/nkinsky/Documents/plugin-GUI2 -BC:/Users/nkinsky/Documents/plugin-GUI2 --check-stamp-file C:/Users/nkinsky/Documents/plugin-GUI2/Plugins/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\nkinsky\Documents\plugin-GUI2\Plugins\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/nkinsky/Documents/plugin-GUI2/Plugins/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/nkinsky/Documents/plugin-GUI2 -BC:/Users/nkinsky/Documents/plugin-GUI2 --check-stamp-file C:/Users/nkinsky/Documents/plugin-GUI2/Plugins/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\nkinsky\Documents\plugin-GUI2\Plugins\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/nkinsky/Documents/plugin-GUI2/Plugins/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/nkinsky/Documents/plugin-GUI2 -BC:/Users/nkinsky/Documents/plugin-GUI2 --check-stamp-file C:/Users/nkinsky/Documents/plugin-GUI2/Plugins/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\nkinsky\Documents\plugin-GUI2\Plugins\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/nkinsky/Documents/plugin-GUI2/Plugins/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/nkinsky/Documents/plugin-GUI2 -BC:/Users/nkinsky/Documents/plugin-GUI2 --check-stamp-file C:/Users/nkinsky/Documents/plugin-GUI2/Plugins/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\nkinsky\Documents\plugin-GUI2\Plugins\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\nkinsky\Documents\plugin-GUI2\ZERO_CHECK.vcxproj">
+      <Project>{34382E66-4E6F-3675-815E-930235F1BFD6}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\nkinsky\Documents\plugin-GUI2\Plugins\ArduinoOutput\ArduinoOutput.vcxproj">
+      <Project>{E46DE967-EB48-3F8B-A335-9D2CECCE119A}</Project>
+      <Name>ArduinoOutput</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\nkinsky\Documents\plugin-GUI2\Plugins\BasicSpikeDisplay\BasicSpikeDisplay.vcxproj">
+      <Project>{A9E61A91-0A65-36EB-BBDC-6F33FC999D41}</Project>
+      <Name>BasicSpikeDisplay</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\nkinsky\Documents\plugin-GUI2\Plugins\CAR\CAR.vcxproj">
+      <Project>{FC760DF7-56D0-3621-A617-2234EC8F1814}</Project>
+      <Name>CAR</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\nkinsky\Documents\plugin-GUI2\Plugins\ChannelMappingNode\ChannelMappingNode.vcxproj">
+      <Project>{384CCB6D-283D-34A5-9B40-86D7287487AD}</Project>
+      <Name>ChannelMappingNode</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\nkinsky\Documents\plugin-GUI2\Plugins\EvntTrigAvg\EvntTrigAvg.vcxproj">
+      <Project>{9A5F0CC6-BE5B-35EA-B411-18455BD7E8E0}</Project>
+      <Name>EvntTrigAvg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\nkinsky\Documents\plugin-GUI2\Plugins\FilterNode\FilterNode.vcxproj">
+      <Project>{45EB8FC7-3D6C-31D6-BED0-630B8E6EBD85}</Project>
+      <Name>FilterNode</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\nkinsky\Documents\plugin-GUI2\Plugins\IntanRecordingController\IntanRecordingController.vcxproj">
+      <Project>{7C4E167D-19E8-367F-BDE9-5FE6699C0051}</Project>
+      <Name>IntanRecordingController</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\nkinsky\Documents\plugin-GUI2\Plugins\LfpDisplayNode\LfpDisplayNode.vcxproj">
+      <Project>{A8D68767-6ED6-3A4B-A6AD-3E1CA3211D7E}</Project>
+      <Name>LfpDisplayNode</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\nkinsky\Documents\plugin-GUI2\Plugins\LfpDisplayNodeBeta\LfpDisplayNodeBeta.vcxproj">
+      <Project>{33501B08-1C61-353A-837B-B7F1804B7C0E}</Project>
+      <Name>LfpDisplayNodeBeta</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\nkinsky\Documents\plugin-GUI2\Plugins\PhaseDetector\PhaseDetector.vcxproj">
+      <Project>{B6F1AE39-1C73-37E2-A263-4F80AF5933F5}</Project>
+      <Name>PhaseDetector</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\nkinsky\Documents\plugin-GUI2\Plugins\PulsePalOutput\PulsePalOutput.vcxproj">
+      <Project>{C94C3726-2606-3423-AB99-742353441196}</Project>
+      <Name>PulsePalOutput</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\nkinsky\Documents\plugin-GUI2\Plugins\RecordControl\RecordControl.vcxproj">
+      <Project>{34871340-8E2B-3F21-9B3D-A7F3DBC84612}</Project>
+      <Name>RecordControl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\nkinsky\Documents\plugin-GUI2\Plugins\Rectifier\Rectifier.vcxproj">
+      <Project>{423692EA-C87D-3CD0-A398-BAADFF3751A3}</Project>
+      <Name>Rectifier</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\nkinsky\Documents\plugin-GUI2\Plugins\RhythmNode\RhythmNode.vcxproj">
+      <Project>{20E45D40-62FA-35DB-B30D-3BF1B551FAC3}</Project>
+      <Name>RhythmNode</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\nkinsky\Documents\plugin-GUI2\Plugins\SerialInput\SerialInput.vcxproj">
+      <Project>{B1941350-B80E-37F4-85C3-7AF8B1E6178A}</Project>
+      <Name>SerialInput</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\nkinsky\Documents\plugin-GUI2\Plugins\SpikeSorter\SpikeSorter.vcxproj">
+      <Project>{F6C19784-53F3-3352-A99E-C04C68EEF9E1}</Project>
+      <Name>SpikeSorter</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

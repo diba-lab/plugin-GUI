@@ -1,0 +1,737 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode\BinaryData.cpp">
+      <Filter>JuceLibraryCode</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode\juce_audio_basics.cpp">
+      <Filter>JuceLibraryCode</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode\juce_audio_devices.cpp">
+      <Filter>JuceLibraryCode</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode\juce_audio_formats.cpp">
+      <Filter>JuceLibraryCode</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode\juce_audio_processors.cpp">
+      <Filter>JuceLibraryCode</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode\juce_audio_utils.cpp">
+      <Filter>JuceLibraryCode</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode\juce_core.cpp">
+      <Filter>JuceLibraryCode</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode\juce_cryptography.cpp">
+      <Filter>JuceLibraryCode</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode\juce_data_structures.cpp">
+      <Filter>JuceLibraryCode</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode\juce_events.cpp">
+      <Filter>JuceLibraryCode</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode\juce_graphics.cpp">
+      <Filter>JuceLibraryCode</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode\juce_gui_basics.cpp">
+      <Filter>JuceLibraryCode</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode\juce_gui_extra.cpp">
+      <Filter>JuceLibraryCode</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode\juce_opengl.cpp">
+      <Filter>JuceLibraryCode</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode\juce_video.cpp">
+      <Filter>JuceLibraryCode</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\AccessClass.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\CoreServices.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\MainWindow.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Audio\AudioComponent.cpp">
+      <Filter>Source\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\AudioNode\AudioEditor.cpp">
+      <Filter>Source\Processors\AudioNode</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\AudioNode\AudioNode.cpp">
+      <Filter>Source\Processors\AudioNode</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\AudioResamplingNode\AudioResamplingNode.cpp">
+      <Filter>Source\Processors\AudioResamplingNode</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Channel\InfoObjects.cpp">
+      <Filter>Source\Processors\Channel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Channel\MetaData.cpp">
+      <Filter>Source\Processors\Channel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\DataThreads\DataBuffer.cpp">
+      <Filter>Source\Processors\DataThreads</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\DataThreads\DataThread.cpp">
+      <Filter>Source\Processors\DataThreads</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\Bessel.cpp">
+      <Filter>Source\Processors\Dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\Biquad.cpp">
+      <Filter>Source\Processors\Dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\Butterworth.cpp">
+      <Filter>Source\Processors\Dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\Cascade.cpp">
+      <Filter>Source\Processors\Dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\ChebyshevI.cpp">
+      <Filter>Source\Processors\Dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\ChebyshevII.cpp">
+      <Filter>Source\Processors\Dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\Custom.cpp">
+      <Filter>Source\Processors\Dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\Design.cpp">
+      <Filter>Source\Processors\Dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\Documentation.cpp">
+      <Filter>Source\Processors\Dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\Elliptic.cpp">
+      <Filter>Source\Processors\Dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\Filter.cpp">
+      <Filter>Source\Processors\Dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\Legendre.cpp">
+      <Filter>Source\Processors\Dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\LinearSmoothedValueAtomic.cpp">
+      <Filter>Source\Processors\Dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\Param.cpp">
+      <Filter>Source\Processors\Dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\PoleFilter.cpp">
+      <Filter>Source\Processors\Dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\RBJ.cpp">
+      <Filter>Source\Processors\Dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\RootFinder.cpp">
+      <Filter>Source\Processors\Dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\State.cpp">
+      <Filter>Source\Processors\Dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Editors\ChannelSelector.cpp">
+      <Filter>Source\Processors\Editors</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Editors\ElectrodeButtons.cpp">
+      <Filter>Source\Processors\Editors</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Editors\GenericEditor.cpp">
+      <Filter>Source\Processors\Editors</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Editors\ImageIcon.cpp">
+      <Filter>Source\Processors\Editors</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Editors\VisualizerEditor.cpp">
+      <Filter>Source\Processors\Editors</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Events\Events.cpp">
+      <Filter>Source\Processors\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\FileReader\FileReader.cpp">
+      <Filter>Source\Processors\FileReader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\FileReader\FileReaderEditor.cpp">
+      <Filter>Source\Processors\FileReader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\FileReader\FileSource.cpp">
+      <Filter>Source\Processors\FileReader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\FileReader\BinaryFileSource\BinaryFileSource.cpp">
+      <Filter>Source\Processors\FileReader\BinaryFileSource</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\GenericProcessor\GenericProcessor.cpp">
+      <Filter>Source\Processors\GenericProcessor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Merger\Merger.cpp">
+      <Filter>Source\Processors\Merger</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Merger\MergerEditor.cpp">
+      <Filter>Source\Processors\Merger</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\MessageCenter\MessageCenter.cpp">
+      <Filter>Source\Processors\MessageCenter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\MessageCenter\MessageCenterEditor.cpp">
+      <Filter>Source\Processors\MessageCenter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Parameter\Parameter.cpp">
+      <Filter>Source\Processors\Parameter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Parameter\ParameterEditor.cpp">
+      <Filter>Source\Processors\Parameter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\PlaceholderProcessor\PlaceholderProcessor.cpp">
+      <Filter>Source\Processors\PlaceholderProcessor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\PlaceholderProcessor\PlaceholderProcessorEditor.cpp">
+      <Filter>Source\Processors\PlaceholderProcessor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\PluginManager\PluginClass.cpp">
+      <Filter>Source\Processors\PluginManager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\PluginManager\PluginManager.cpp">
+      <Filter>Source\Processors\PluginManager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\ProcessorGraph\ProcessorGraph.cpp">
+      <Filter>Source\Processors\ProcessorGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\ProcessorManager\ProcessorManager.cpp">
+      <Filter>Source\Processors\ProcessorManager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\RecordNode\DataQueue.cpp">
+      <Filter>Source\Processors\RecordNode</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\RecordNode\EngineConfigWindow.cpp">
+      <Filter>Source\Processors\RecordNode</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\RecordNode\RecordEngine.cpp">
+      <Filter>Source\Processors\RecordNode</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\RecordNode\RecordNode.cpp">
+      <Filter>Source\Processors\RecordNode</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\RecordNode\RecordThread.cpp">
+      <Filter>Source\Processors\RecordNode</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\RecordNode\BinaryFormat\BinaryRecording.cpp">
+      <Filter>Source\Processors\RecordNode\BinaryFormat</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\RecordNode\BinaryFormat\NpyFile.cpp">
+      <Filter>Source\Processors\RecordNode\BinaryFormat</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\RecordNode\BinaryFormat\SequentialBlockFile.cpp">
+      <Filter>Source\Processors\RecordNode\BinaryFormat</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\RecordNode\OpenEphysFormat\OriginalRecording.cpp">
+      <Filter>Source\Processors\RecordNode\OpenEphysFormat</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Serial\ofSerial.cpp">
+      <Filter>Source\Processors\Serial</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\SourceNode\SourceNode.cpp">
+      <Filter>Source\Processors\SourceNode</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\SourceNode\SourceNodeEditor.cpp">
+      <Filter>Source\Processors\SourceNode</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Splitter\Splitter.cpp">
+      <Filter>Source\Processors\Splitter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Splitter\SplitterEditor.cpp">
+      <Filter>Source\Processors\Splitter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Visualization\DataWindow.cpp">
+      <Filter>Source\Processors\Visualization</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Visualization\MatlabLikePlot.cpp">
+      <Filter>Source\Processors\Visualization</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Visualization\Visualizer.cpp">
+      <Filter>Source\Processors\Visualization</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\ControlPanel.cpp">
+      <Filter>Source\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\CustomArrowButton.cpp">
+      <Filter>Source\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\DataViewport.cpp">
+      <Filter>Source\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\EditorViewport.cpp">
+      <Filter>Source\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\EditorViewportButtons.cpp">
+      <Filter>Source\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\GraphViewer.cpp">
+      <Filter>Source\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\InfoLabel.cpp">
+      <Filter>Source\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\ProcessorList.cpp">
+      <Filter>Source\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\SignalChainManager.cpp">
+      <Filter>Source\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\TimestampSourceSelection.cpp">
+      <Filter>Source\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\UIComponent.cpp">
+      <Filter>Source\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\LookAndFeel\CustomLookAndFeel.cpp">
+      <Filter>Source\UI\LookAndFeel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\LookAndFeel\MaterialButtonLookAndFeel.cpp">
+      <Filter>Source\UI\LookAndFeel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\LookAndFeel\MaterialSliderLookAndFeel.cpp">
+      <Filter>Source\UI\LookAndFeel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\Utils\ButtonGroupManager.cpp">
+      <Filter>Source\UI\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\Utils\LinearButtonGroupManager.cpp">
+      <Filter>Source\UI\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\Utils\TiledButtonGroupManager.cpp">
+      <Filter>Source\UI\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Utils\ListSliceParser.cpp">
+      <Filter>Source\Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode\AppConfig.h">
+      <Filter>JuceLibraryCode</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode\JuceHeader.h">
+      <Filter>JuceLibraryCode</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\JuceLibraryCode\BinaryData.h">
+      <Filter>JuceLibraryCode</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\AccessClass.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\CoreServices.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\MainWindow.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Audio\AudioComponent.h">
+      <Filter>Source\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\AudioNode\AudioEditor.h">
+      <Filter>Source\Processors\AudioNode</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\AudioNode\AudioNode.h">
+      <Filter>Source\Processors\AudioNode</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\AudioResamplingNode\AudioResamplingNode.h">
+      <Filter>Source\Processors\AudioResamplingNode</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Channel\InfoObjects.h">
+      <Filter>Source\Processors\Channel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Channel\MetaData.h">
+      <Filter>Source\Processors\Channel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\DataThreads\DataBuffer.h">
+      <Filter>Source\Processors\DataThreads</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\DataThreads\DataThread.h">
+      <Filter>Source\Processors\DataThreads</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\Bessel.h">
+      <Filter>Source\Processors\Dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\Biquad.h">
+      <Filter>Source\Processors\Dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\Butterworth.h">
+      <Filter>Source\Processors\Dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\Cascade.h">
+      <Filter>Source\Processors\Dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\ChebyshevI.h">
+      <Filter>Source\Processors\Dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\ChebyshevII.h">
+      <Filter>Source\Processors\Dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\Common.h">
+      <Filter>Source\Processors\Dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\Custom.h">
+      <Filter>Source\Processors\Dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\Design.h">
+      <Filter>Source\Processors\Dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\Dsp.h">
+      <Filter>Source\Processors\Dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\Elliptic.h">
+      <Filter>Source\Processors\Dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\Filter.h">
+      <Filter>Source\Processors\Dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\Layout.h">
+      <Filter>Source\Processors\Dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\Legendre.h">
+      <Filter>Source\Processors\Dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\LinearSmoothedValueAtomic.h">
+      <Filter>Source\Processors\Dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\MathSupplement.h">
+      <Filter>Source\Processors\Dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\Params.h">
+      <Filter>Source\Processors\Dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\PoleFilter.h">
+      <Filter>Source\Processors\Dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\RBJ.h">
+      <Filter>Source\Processors\Dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\RootFinder.h">
+      <Filter>Source\Processors\Dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\SmoothedFilter.h">
+      <Filter>Source\Processors\Dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\State.h">
+      <Filter>Source\Processors\Dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\Types.h">
+      <Filter>Source\Processors\Dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Dsp\Utilities.h">
+      <Filter>Source\Processors\Dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Editors\ChannelSelector.h">
+      <Filter>Source\Processors\Editors</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Editors\ElectrodeButtons.h">
+      <Filter>Source\Processors\Editors</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Editors\GenericEditor.h">
+      <Filter>Source\Processors\Editors</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Editors\ImageIcon.h">
+      <Filter>Source\Processors\Editors</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Editors\VisualizerEditor.h">
+      <Filter>Source\Processors\Editors</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Events\Events.h">
+      <Filter>Source\Processors\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\FileReader\FileReader.h">
+      <Filter>Source\Processors\FileReader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\FileReader\FileReaderEditor.h">
+      <Filter>Source\Processors\FileReader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\FileReader\FileSource.h">
+      <Filter>Source\Processors\FileReader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\FileReader\BinaryFileSource\BinaryFileSource.h">
+      <Filter>Source\Processors\FileReader\BinaryFileSource</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\GenericProcessor\GenericProcessor.h">
+      <Filter>Source\Processors\GenericProcessor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Merger\Merger.h">
+      <Filter>Source\Processors\Merger</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Merger\MergerEditor.h">
+      <Filter>Source\Processors\Merger</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\MessageCenter\MessageCenter.h">
+      <Filter>Source\Processors\MessageCenter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\MessageCenter\MessageCenterEditor.h">
+      <Filter>Source\Processors\MessageCenter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Parameter\Parameter.h">
+      <Filter>Source\Processors\Parameter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Parameter\ParameterEditor.h">
+      <Filter>Source\Processors\Parameter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\PlaceholderProcessor\PlaceholderProcessor.h">
+      <Filter>Source\Processors\PlaceholderProcessor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\PlaceholderProcessor\PlaceholderProcessorEditor.h">
+      <Filter>Source\Processors\PlaceholderProcessor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\PluginManager\OpenEphysPlugin.h">
+      <Filter>Source\Processors\PluginManager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\PluginManager\PluginClass.h">
+      <Filter>Source\Processors\PluginManager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\PluginManager\PluginIDs.h">
+      <Filter>Source\Processors\PluginManager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\PluginManager\PluginManager.h">
+      <Filter>Source\Processors\PluginManager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\ProcessorGraph\ProcessorGraph.h">
+      <Filter>Source\Processors\ProcessorGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\ProcessorManager\ProcessorManager.h">
+      <Filter>Source\Processors\ProcessorManager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\RecordNode\DataQueue.h">
+      <Filter>Source\Processors\RecordNode</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\RecordNode\EngineConfigWindow.h">
+      <Filter>Source\Processors\RecordNode</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\RecordNode\EventQueue.h">
+      <Filter>Source\Processors\RecordNode</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\RecordNode\RecordEngine.h">
+      <Filter>Source\Processors\RecordNode</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\RecordNode\RecordNode.h">
+      <Filter>Source\Processors\RecordNode</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\RecordNode\RecordThread.h">
+      <Filter>Source\Processors\RecordNode</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\RecordNode\BinaryFormat\BinaryRecording.h">
+      <Filter>Source\Processors\RecordNode\BinaryFormat</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\RecordNode\BinaryFormat\FileMemoryBlock.h">
+      <Filter>Source\Processors\RecordNode\BinaryFormat</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\RecordNode\BinaryFormat\NpyFile.h">
+      <Filter>Source\Processors\RecordNode\BinaryFormat</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\RecordNode\BinaryFormat\SequentialBlockFile.h">
+      <Filter>Source\Processors\RecordNode\BinaryFormat</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\RecordNode\OpenEphysFormat\OriginalRecording.h">
+      <Filter>Source\Processors\RecordNode\OpenEphysFormat</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Serial\ofConstants.h">
+      <Filter>Source\Processors\Serial</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Serial\ofSerial.h">
+      <Filter>Source\Processors\Serial</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\SourceNode\SourceNode.h">
+      <Filter>Source\Processors\SourceNode</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\SourceNode\SourceNodeEditor.h">
+      <Filter>Source\Processors\SourceNode</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Splitter\Splitter.h">
+      <Filter>Source\Processors\Splitter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Splitter\SplitterEditor.h">
+      <Filter>Source\Processors\Splitter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Visualization\DataWindow.h">
+      <Filter>Source\Processors\Visualization</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Visualization\MatlabLikePlot.h">
+      <Filter>Source\Processors\Visualization</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Processors\Visualization\Visualizer.h">
+      <Filter>Source\Processors\Visualization</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\ControlPanel.h">
+      <Filter>Source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\CustomArrowButton.h">
+      <Filter>Source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\DataViewport.h">
+      <Filter>Source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\EditorViewport.h">
+      <Filter>Source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\EditorViewportButtons.h">
+      <Filter>Source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\GraphViewer.h">
+      <Filter>Source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\InfoLabel.h">
+      <Filter>Source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\ProcessorList.h">
+      <Filter>Source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\SignalChainManager.h">
+      <Filter>Source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\TimestampSourceSelection.h">
+      <Filter>Source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\UIComponent.h">
+      <Filter>Source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\LookAndFeel\CustomLookAndFeel.h">
+      <Filter>Source\UI\LookAndFeel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\LookAndFeel\FlatRoundLookAndFeel.h">
+      <Filter>Source\UI\LookAndFeel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\LookAndFeel\MaterialButtonLookAndFeel.h">
+      <Filter>Source\UI\LookAndFeel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\LookAndFeel\MaterialSliderLookAndFeel.h">
+      <Filter>Source\UI\LookAndFeel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\LookAndFeel\SquareLookAndFeel.h">
+      <Filter>Source\UI\LookAndFeel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\Utils\ButtonGroupManager.h">
+      <Filter>Source\UI\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\Utils\LinearButtonGroupManager.h">
+      <Filter>Source\UI\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\UI\Utils\TiledButtonGroupManager.h">
+      <Filter>Source\UI\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nkinsky\Documents\plugin-GUI2\Source\Utils\ListSliceParser.h">
+      <Filter>Source\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\nkinsky\Documents\plugin-GUI2\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\nkinsky\Documents\plugin-GUI2\Resources\Build-files\resources.rc">
+      <Filter>Resources\Build-files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="JuceLibraryCode">
+      <UniqueIdentifier>{054F58DB-9E5E-30FC-88E3-E51A2BD26649}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{B153E2B9-93A3-349A-B388-85AB22E8F811}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Build-files">
+      <UniqueIdentifier>{28E4AA88-1334-377A-8024-A54CD7BC3E57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{11A7F175-3A18-3EAB-BB21-1705B95762E0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Audio">
+      <UniqueIdentifier>{8922B7EE-542E-3DCC-992B-2A08A682A830}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Processors">
+      <UniqueIdentifier>{7BFA8019-568C-3AFF-8A52-454B3FDCD1C1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Processors\AudioNode">
+      <UniqueIdentifier>{F6135356-2D15-3937-91FA-DB81A6EF1A34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Processors\AudioResamplingNode">
+      <UniqueIdentifier>{794A2B7A-9DD8-3880-978F-E48F9AB492EC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Processors\Channel">
+      <UniqueIdentifier>{E1A5E4AC-5AE9-3CDA-84E4-58109DBC5049}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Processors\DataThreads">
+      <UniqueIdentifier>{1E4E6288-DA46-3274-9869-CC126D55D7EC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Processors\Dsp">
+      <UniqueIdentifier>{2093FF12-1019-3CB5-AF71-688DD4EB89AC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Processors\Editors">
+      <UniqueIdentifier>{F4EC45FA-9082-379D-902E-70DE5D9FB0A7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Processors\Events">
+      <UniqueIdentifier>{AD88B686-54D9-3877-80BE-8407CBD6C201}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Processors\FileReader">
+      <UniqueIdentifier>{58BFE618-155C-340D-9262-58C8C65C0C8F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Processors\FileReader\BinaryFileSource">
+      <UniqueIdentifier>{8BCCABA5-660B-3970-AFC4-5E487160C596}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Processors\GenericProcessor">
+      <UniqueIdentifier>{C5BFBB05-263D-32A0-9BAC-A83469AD447F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Processors\Merger">
+      <UniqueIdentifier>{0D60650A-BBCF-381C-BF3B-74A30627A1C4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Processors\MessageCenter">
+      <UniqueIdentifier>{1C3114B0-3CF4-3A4C-8051-FFD891375372}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Processors\Parameter">
+      <UniqueIdentifier>{E3F07B1B-78DC-3D97-8D14-ADA2245B72C8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Processors\PlaceholderProcessor">
+      <UniqueIdentifier>{0F15E618-C7E0-33E8-8245-04D076A1B331}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Processors\PluginManager">
+      <UniqueIdentifier>{F2D737D6-31D5-3759-8A3C-E8218C6DA175}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Processors\ProcessorGraph">
+      <UniqueIdentifier>{1198B44A-5C28-398C-BCE9-B69BC0272034}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Processors\ProcessorManager">
+      <UniqueIdentifier>{F4DE10A4-9AE6-3072-A68E-A1B9EC940597}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Processors\RecordNode">
+      <UniqueIdentifier>{5D5D1113-C418-30CC-B463-7B456BD5CEA3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Processors\RecordNode\BinaryFormat">
+      <UniqueIdentifier>{FE67B7D2-5DAD-3924-98A4-24C292DED45D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Processors\RecordNode\OpenEphysFormat">
+      <UniqueIdentifier>{B92B144C-3ACC-31B6-BEE4-3E74D7DFA345}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Processors\Serial">
+      <UniqueIdentifier>{9DACCF67-17A3-3E06-B512-8CC91F266E86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Processors\SourceNode">
+      <UniqueIdentifier>{55A072B7-878C-311E-8FF8-444AC1CAEAFF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Processors\Splitter">
+      <UniqueIdentifier>{C6174FD0-186C-3584-AAD8-3399211D42EF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Processors\Visualization">
+      <UniqueIdentifier>{7AEC320B-FF6B-3093-B45A-0962D29BBAFF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\UI">
+      <UniqueIdentifier>{83C17BD4-C848-31EA-84D3-55135996EB9B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\UI\LookAndFeel">
+      <UniqueIdentifier>{4266E791-917B-3633-BB69-6C152F45D43E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\UI\Utils">
+      <UniqueIdentifier>{EA0B6DF7-6272-37EF-BCE6-066558801589}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Utils">
+      <UniqueIdentifier>{6A030AB4-3EE0-354B-97E4-831AE63341BD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
