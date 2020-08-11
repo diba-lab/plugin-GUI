@@ -3,6 +3,7 @@
 # 1. intermediate files
 *.o
 *.d
+*.ipch
 
 # 2. binaries
 Builds/Linux/build/open-ephys
