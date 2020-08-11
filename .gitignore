@@ -99,7 +99,8 @@ Builds/VisualStudio2013/Plugins/**/Release
 Builds/VisualStudio2013/Plugins/Debug
 Builds/VisualStudio2013/Plugins/Release
 Builds/VisualStudio2013/Plugins/x64
-
+Debug
+Release
 
 
 # 5. Miscellanous generated files (Doxygen, etc.)
