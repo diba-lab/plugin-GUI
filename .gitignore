@@ -107,6 +107,7 @@ Release
 # 5. Miscellanous generated files (Doxygen, etc.)
 Source/Docs/*
 Plugins/**/*.db
+Plugins/**/*.opendb
 
 # 6. IDE and code analyzer cruft
 cscope.files
